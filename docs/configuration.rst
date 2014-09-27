@@ -3,6 +3,9 @@ Configuration
 
 Available settings:
 
+DEFAULT_FROM_EMAIL = "email@example.com"
+  Specifies the "from" email
+
 ACCOUNT_ADAPTER (="allauth.account.adapter.DefaultAccountAdapter")
   Specifies the adapter class to use, allowing you to alter certain
   default behaviour.
